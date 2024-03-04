@@ -7,3 +7,8 @@ Colabotary 90min Rule
 Colabotary 12Hours Rule
 	노트북을 열고 인스턴스가 시작되고나서 12시간이 지나면 해당 인스턴스가 끊긴다.
 	![[Pasted image 20240304094607.png]]
+12시간 룰은, 아래 코드로 기동으로부터의 시간을 알 수 있다.
+
+```
+!cat /proc/uptime | awk '{print $1 /60 /60 /24 "days (" $1 "sec)"}'
+```
