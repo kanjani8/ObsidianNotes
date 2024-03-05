@@ -48,3 +48,5 @@ Theory:
 	- DocumentGPT, PrivateGPT, QuizGPT, SiteGPT, MeetingGPT, InvestorGPT
 - 구현하는 ChatGPT Plugin (1종) 
 	- ChefGPT
+
+[[About Langchain]]
