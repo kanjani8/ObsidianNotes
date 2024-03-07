@@ -6,11 +6,12 @@
 **Definition**: Large Language Models (LLMs) are a subset of artificial intelligence (AI) that specialize in understanding, generating, and interpreting human language. They are trained on vast amounts of text data, enabling them to grasp the nuances, contexts, and subtleties of language.
 
 **How They Work**: LLMs are built on neural networks, specifically a type called [[Transformer]]. These models learn by analyzing text data, identifying patterns, and understanding the relationships between words and phrases. Through a process called "training," they adjust their internal parameters to minimize errors in their predictions, improving their ability to generate coherent and contextually relevant text.
+Analogy: Imagine teaching someone a new language by having them read an entire library's worth of books in that language. Over time, they start recognizing patterns, grammar, vocabulary, and can eventually write new sentences on their own. That's similar to how LLMs learn from vast amounts of text data.
 
 ### Key Concepts
 
 - **Training Data**: The large datasets of text that LLMs learn from. This data can include books, articles, websites, and any other text-rich sources.
-- **Transformer Architecture**: A type of neural network architecture that has proven highly effective for language tasks. It relies on mechanisms called attention and self-attention to weigh the importance of different words in a sentence.
+- **[[Transformer]] Architecture**: A type of neural network architecture that has proven highly effective for language tasks. It relies on mechanisms called attention and self-attention to weigh the importance of different words in a sentence.
 - **Tokenization**: The process of breaking down text into smaller units (tokens) that the model can understand. Tokens can be words, parts of words, or even individual characters.
 - **Fine-tuning**: Adjusting a pre-trained model on a smaller, specific dataset to adapt it for particular tasks or domains.
 
