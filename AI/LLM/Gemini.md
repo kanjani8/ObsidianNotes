@@ -23,3 +23,4 @@
 ### 추가 정보 및 리소스
 
 - **공식 문서 및 API 참조**: 개발자는 [Google AI for Developers](https://ai.google.dev/docs)에서 Gemini API 시작 방법, 안전 설정 및 안내, 다양한 프로그래밍 언어 예시 등을 찾을 수 있음​[](https://ai.google.dev/docs)​.- 
+
