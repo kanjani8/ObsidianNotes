@@ -6,6 +6,7 @@
     - **다양한 크기 최적화**: Gemini Ultra (복잡한 과제용), Gemini Pro (다양한 과제 스케일링용), Gemini Nano (for on-device tasks) 등으로 최적화​[](https://blog.google/technology/ai/google-gemini-ai/)​.
     - **멀티모달 능력**: 텍스트, 코드, 오디오, 이미지, 비디오 등 다양한 형태의 정보를 이해하고 조합할 수 있는 능력.
     - **플랫폼**: 데이터 센터부터 모바일 기기까지 다양한 플랫폼에서 효율적으로 작동.
+    - 이후: Youtube 등 Google 플랫폼과 연계될 예정
 
 ### 프로그래머를 위한 Gemini 활용 방법
 
