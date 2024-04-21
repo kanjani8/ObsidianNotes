@@ -16,3 +16,20 @@
 | YOLO 모델 (예: YOLOv5, YOLOv8)                          | 낮음 (특히 경량 버전) | 중   | ⭕️         | 고속 처리가 필요하고 일반적인 정확도가 충분할 때 | 중        | 일반적인 얼굴 인식에 적합하나 연령 인식에는 덜 특화됨 |
 
 트랜스포머를 사용하려면 [[Transformer with Raspberry-pi#^07a3d9 |외부처리]]
+
+
+### 1. Improved Swin Transformer with Attention-Based Convolution (ABC) and SwinFace
+
+These are newer, more advanced models that utilize Transformer architectures, known for handling complex patterns and relationships in data:
+
+- **Improved Swin Transformer with ABC**: This model integrates attention mechanisms with convolution, which enhances its ability to focus on relevant features within an image, making it particularly effective for detailed and context-aware tasks like age estimation​ ([Frontiers](https://www.frontiersin.org/journals/neuroscience/articles/10.3389/fnins.2023.1136934/full))​.
+- **SwinFace**: A multi-task model designed to handle various face-related tasks including face recognition, expression recognition, age estimation, and attribute estimation. It leverages a Transformer-based architecture to improve performance across these tasks by benefiting from a shared learning process​ ([ar5iv](https://ar5iv.org/pdf/2308.11509v1.pdf))​.
+
+### 2. Deep EXpectation (DEX), VGGFace, AgeNet and GenderNet, Inception
+
+These models are generally older and use more traditional convolutional neural network (CNN) architectures:
+
+- **Deep EXpectation (DEX)**: Specifically focuses on age prediction by treating it as a classification problem across multiple age classes. It is known for its high performance on age estimation tasks, utilizing a deep CNN trained on large labeled datasets .
+- **VGGFace**: Primarily developed for face recognition tasks but can be adapted for age and gender classification. It is based on the VGG architecture, which is a deep CNN known for its effectiveness in image recognition due to its simplicity and depth​ ([Home](https://docs.ultralytics.com/models/yolov8/))​.
+- **AgeNet and GenderNet**: These are specialized models for age and gender classification. They use CNNs and are typically pre-trained on demographic datasets before being fine-tuned for specific age and gender classification tasks .
+- **Inception**: A versatile model originally designed for broad image classification tasks. It can be retrained to perform age and gender detection, benefiting from its ability to learn complex and abstract patterns through a sophisticated layering architecture .
