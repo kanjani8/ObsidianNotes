@@ -33,3 +33,5 @@ These models are generally older and use more traditional convolutional neural n
 - **VGGFace**: Primarily developed for face recognition tasks but can be adapted for age and gender classification. It is based on the VGG architecture, which is a deep CNN known for its effectiveness in image recognition due to its simplicity and depth​ ([Home](https://docs.ultralytics.com/models/yolov8/))​.
 - **AgeNet and GenderNet**: These are specialized models for age and gender classification. They use CNNs and are typically pre-trained on demographic datasets before being fine-tuned for specific age and gender classification tasks .
 - **Inception**: A versatile model originally designed for broad image classification tasks. It can be retrained to perform age and gender detection, benefiting from its ability to learn complex and abstract patterns through a sophisticated layering architecture .
+
+#Raspberry-pi  #ComputerVision  #Edge-device 

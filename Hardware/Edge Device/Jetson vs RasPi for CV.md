@@ -29,3 +29,10 @@ NVIDIA Jetson Nano, Jetson AGX Xavier, 그리고 Raspberry Pi Compute Module 4 (
 
 ### 결론 
 Jetson 시리즈는 고성능 AI 컴퓨팅에, Raspberry Pi는 비용 효율적인 일반 컴퓨팅 및 기본적인 이미지 처리 작업에 적합합니다. 프로젝트의 목표에 따라 각각의 장점을 활용하는 것이 중요합니다.
+
+
+#Raspberry-pi
+#Jetson 
+#Edge-device
+#ComputerVision
+#AI
