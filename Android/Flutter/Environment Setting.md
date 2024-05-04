@@ -4,7 +4,8 @@ with Android Studio. - to use Emulator and ect
 2. sdk 압축 해제후 개발 프로그램 등이 저장되기 적정한 위치로 이동. ex. C://, 10345
 	C://Users//10345//flutter
 3. Update your Windows PATH variable
-	혹시 몰라 재부팅
+	C:\Users\name\flutter\bin을 유저 패스에 등록
+	터미널 새로 오픈
 4. 안드로이드 스튜디오에서 필요 sdk들 확인 및 설치 
 	- **Android SDK Platform, API 34.0.0**
 	- **Android SDK Command-line Tools**
