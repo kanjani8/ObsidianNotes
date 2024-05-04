@@ -1,5 +1,5 @@
-#Map
-for test item, if you don't want to use Google map API free trial with credit card information there's some option
+for test item, if you don't want to use Google map API free trial with credit card information.
+
 
 ### OpenStreetMap (OSM)
 

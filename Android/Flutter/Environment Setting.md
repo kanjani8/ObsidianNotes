@@ -1,20 +1,25 @@
-How to import Flutter platform in Android Studio.
+with Android Studio. - to use Emulator and ect
 
-0. Set Android Studio
-1. **Download Flutter SDK : Flutter 공식 웹사이트에서 Flutter SDK를 다운로드하고, 압축을 풀어 적절한 위치에 저장합니다.
-2. Set Flutter file in somewhere like C://Users//YOURNAME//flutter
-    
-3. **환경 변수 설정**: 시스템의 환경 변수에 Flutter의 bin 디렉토리 경로를 추가
-    
-4.  **Android Studio에 Flutter 플러그인 설치**: Android Studio를 열고 'Plugins' 메뉴에서 'Marketplace'를 선택한 후 'Flutter'를 검색하여 설치합니다. 이 플러그인 설치 시 Dart 플러그인도 함께 설치됩니다.
-5. Flutter 프로젝트 생성: 이제 새 프로젝트를 생성하려 할때 Flutter 프로젝트 생성란이 생김.
-
-
-
-#### Difference between SDK and plugin
-- **Flutter SDK**: 이것은 Flutter 프레임워크 자체입니다. 애플리케이션 개발을 위한 핵심 도구와 라이브러리, Dart 언어를 포함하고 있습니다. 이 SDK는 Flutter 앱을 개발할 때 필요한 모든 기능을 제공합니다.
-    
-- **Flutter plugin for Android Studio**: 이 플러그인은 Android Studio 내에서 Flutter 애플리케이션을 개발, 실행, 디버그하는 데 필요한 기능을 제공합니다. 플러그인은 Android Studio를 Flutter 개발에 최적화된 환경으로 만들어주며, 코드 편집, 앱 실행, 성능 모니터링 등을 지원합니다.
-    
-
-Flutter SDK는 프레임워크 자체를 제공하고, Flutter 플러그인은 그 프레임워크를 사용하여 Android Studio에서 개발할 수 있도록 돕는 역할을 합니다.
+1. **Download the latest Flutter SDK**(프레임워크) https://docs.flutter.dev/get-started/install/windows/mobile?tab=download#download-then-install-flutter
+2. sdk 압축 해제후 개발 프로그램 등이 저장되기 적정한 위치로 이동. ex. C://, 10345
+	C://Users//10345//flutter
+3. Update your Windows PATH variable
+	혹시 몰라 재부팅
+4. 안드로이드 스튜디오에서 필요 sdk들 확인 및 설치 
+	- **Android SDK Platform, API 34.0.0**
+	- **Android SDK Command-line Tools**
+	- **Android SDK Build-Tools**
+	- **Android SDK Platform-Tools**
+	- **Android Emulator**
+5. Android Studio의 플러그인 설정에서 Flutter 플러그인 설치
+	이거하면 dart plugin도 자동 설치됨.
+	![[Pasted image 20240501171742.png|400]]
+	[[Flutter SDK와 Plugin 차이]]
+6. Agree to Android licenses
+	C:> flutter doctor --android-licenses 명령어 안드로이드 스튜디오 콘솔에서 돌려서 전부 동의로 선택하기.
+7. Create New Flutter project
+	아래와 같이 New Flutter project 를 선택할 수 있게된다.
+	![[Pasted image 20240501171950.png]]
+8. 그 외 Flutter를 위한 환경 확인
+	콘솔에서  C:> flutter doctor 돌리면 체크해줌. - 하지만  Visual Studio, Desktop development with C++ 를 설치하라는 안내문은 데스크톱 앱을 개발하지 않는 한 필요없음.
+9. 프로젝트 생성하기 [[How to Create a Flutter app]]

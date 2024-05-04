@@ -21,3 +21,4 @@ COCO 데이터셋에 없는 것을 학습시키려할 때 초기 모델로 사�
 
 [[Difference Between .conv vs .weightsweights | 結果の例]]
 
+#YOLO  #ComputerVision 
