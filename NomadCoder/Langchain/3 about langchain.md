@@ -46,14 +46,34 @@ system message는 LLM을 세팅할 때 보내는 메시지이다.
 Prompt template는 프롬프트 템플릿을 그냥 String으로 만드는데 비해
 Chat prompt template은 프롬프트 템플릿을 messages = []로부터 만든다.
 #### Prompt Template
-from langchain.prompts import PromptTemplate, ChatPromptTemplate
+from langchain.prompts import PromptTemplate
+
+chat = ChatOpenAI(temperature = 1) 
 
 template = PromptTemplate.from_template("what is the distance between {country_a} and {country_b}?")
 prompt = template.format(country_a="Turkey", country_b="Japan")
 
-chat = ChatOpenAI(temperature = 1) # how creative the model is. 0.1~1.
 chat.predict(prompt)
-
 
 #### Chat Prompt Template
 
+from langchain.prompts import ChatPromptTemplate
+
+chat = ChatOpenAI(temperature = 1) 
+
+template = ChatPromptTemplate.from_messages([
+    ("system", "You are a geography expert. And you only reply in {language}."),
+    ("ai", "こんにちは、私は{name}です。"),
+    ("human", "what is the distance between {country_a} and {country_b}? and Also, what is your name?")
+])
+prompt =template.format_messages(
+    language="Ukraine",
+    name="Nedilya",
+    country_a="Ukraine",
+    country_b="Tokyo"
+)
+
+chat.predict_messages(prompt)
+
+output:
+	AIMessage(content='Відстань між Україною і Токіо складає близько 8 407 кілометрів. Мене звуть Неділя. Я відповідаю на ваші питання українською мовою. Якщо у вас є ще питання, не соромтеся питати.', response_metadata={'token_usage': {'completion_tokens': 115, 'prompt_tokens': 55, 'total_tokens': 170}, 'model_name': 'gpt-3.5-turbo', 'system_fingerprint': None, 'finish_reason': 'stop', 'logprobs': None}, id='run-a343977c-15fb-4fae-87e5-c9b9185f697f-0')
