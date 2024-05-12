@@ -76,4 +76,12 @@ prompt =template.format_messages(
 chat.predict_messages(prompt)
 
 output:
-	AIMessage(content='Відстань між Україною і Токіо складає близько 8 407 кілометрів. Мене звуть Неділя. Я відповідаю на ваші питання українською мовою. Якщо у вас є ще питання, не соромтеся питати.', response_metadata={'token_usage': {'completion_tokens': 115, 'prompt_tokens': 55, 'total_tokens': 170}, 'model_name': 'gpt-3.5-turbo', 'system_fingerprint': None, 'finish_reason': 'stop', 'logprobs': None}, id='run-a343977c-15fb-4fae-87e5-c9b9185f697f-0')
+	AIMessage(content='Відстань між Україною і Токіо складає близько 8 407 кілометрів. Мене звуть Неділя. Я відповідаю на ваші питання українською мовою. Якщо у вас є ще питання, не соромтеся питати.', response_metadata={'token_usage': {'completion_tokens': 115, 'prompt_tokens': 55, 'total_tokens': 170}, 'model_name': 'gpt-3.5-turbo', 'system_fingerprint': None, 'finish_reason': 'stop', 'logprobs': None}, id='deleted')
+
+## 4. Output Parser & LCEL
+Output parser -> Chat LLM의 Response를 변형하고싶을때.
+ 단순히 text가 아닌, 표나 list로 출력되기 바라는 등의 경우
+
+
+
+Lang Chain Express Language
