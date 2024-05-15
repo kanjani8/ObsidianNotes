@@ -82,6 +82,17 @@ output:
 Output parser -> Chat LLM의 Response를 변형하고싶을때.
  단순히 text가 아닌, 표나 list로 출력되기 바라는 등의 경우
 
+from langchain.schema import BaseOutputParser
+
+  
+class CommaOutputParser(BaseOutputParser):
+    def parse(self, text):
+        items = text.strip().split(",") #strip: strip away the blank
+        return list(map(str.strip, items))
+
+p = CommaOutputParser()
+p.parse("Hello, how, are, you?")
+
 
 
 Lang Chain Express Language
