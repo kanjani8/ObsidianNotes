@@ -1,4 +1,4 @@
-AWS의 새로운 인공지능 서비스
+[AWS의 새로운 인공지능 서비스](https://aws.amazon.com/ko/bedrock/?gclid=CjwKCAjwmrqzBhAoEiwAXVpgoofh7uqLObxlioat_PjHSDo_R35MgnZPmjZbty8I72QGqt_aGpNezBoCDjIQAvD_BwE&trk=07e11748-d254-4d68-b9eb-c40a095bfc9d&sc_channel=ps&ef_id=CjwKCAjwmrqzBhAoEiwAXVpgoofh7uqLObxlioat_PjHSDo_R35MgnZPmjZbty8I72QGqt_aGpNezBoCDjIQAvD_BwE:G:s&s_kwcid=AL!4422!3!692062154777!e!!g!!amazon%20bedrock!21048268287!157173579577)
 이 서비스를 통해 기업들이 대규모 언어 모델(LLM)을 쉽게 사용할 수 있습니다. Bedrock는 여러 AI 모델을 제공하여 다양한 자연어 처리(NLP) 작업을 수행할 수 있도록 합니다. 
 ### 주요 특징
 
@@ -28,5 +28,7 @@ AWS의 새로운 인공지능 서비스
     - 사용한 만큼만 비용을 지불하는 Pay-as-you-go 모델로 운영되므로 비용 효율적입니다.
 - **지속적인 업데이트**:
     - AWS는 지속적으로 모델을 업데이트하고 최적화하여 최신 기술을 제공하므로, 사용자는 항상 최신 AI 기술을 사용할 수 있습니다.
+- 안정성:
+	  OpenAI가 갑자기 GPT4 서비스를 못하게 되더라도 Microsoft Azure의 복제본을 사용해서 서비스 가능.
 
 Amazon Bedrock는 이러한 특징들을 통해 기업들이 AI 기술을 손쉽게 활용할 수 있도록 돕는 강력한 도구입니다.
