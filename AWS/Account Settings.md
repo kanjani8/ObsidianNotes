@@ -1,2 +1,2 @@
 1. If you want to use various LLM models in Amazon Bedrock, set your region to North Virginia
-2. 
+2. If you want to make a server for your web service and ues S3 Service, set your region really suit for you.
