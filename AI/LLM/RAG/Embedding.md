@@ -6,7 +6,7 @@ Imagine each word in a sentence being transformed into a unique sequence of numb
 
 **Vectorization** is the process of converting text documents into vectors. A vector is essentially a list of numbers, and each document is represented as a vector. This transformation helps the machine learning model to process and analyze the text more effectively.
 
-For example, if we have three documents, vectorization will create a unique vector for each document. These vectors capture important information about the documents' contents, making it easier for the model to distinguish between them.
+For example, if we have three documents, ==vectorization will create a unique vector for each document==. These vectors capture important information about the documents' contents, making it easier for the model to distinguish between them.
 
 ### Embedding Documents
 
@@ -16,4 +16,4 @@ To further enhance the understanding, we can **embed each document** using a mod
     
 2. **Embedding with OpenAI's Model**: We then use OpenAI's embedding model to convert these chunks or words into vectors. This model generates vectors with at least 1000 dimensions. A dimension can be thought of as an individual feature or attribute in the vector.
     
-    - **1000 Dimensions**: Think of a vector as a long list of 1000 numbers. Each number represents a specific aspect of the word or chunk of text. Having more dimensions allows the model to capture more detailed information about the text.
+    - **1000 Dimensions**: Think of a vector as a long list of 1000 numbers. Each number represents a specific aspect of the word or chunk of text. Having more dimensions allows the model to capture more detailed information about the text. 
