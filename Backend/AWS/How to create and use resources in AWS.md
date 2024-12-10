@@ -1,10 +1,10 @@
 = How to Provision AWS Resources
 
-3ways;
+4ways;
 AWS Management Console
  AWS Command Line Interface(CLI)
  AWS Software Development Kits(SDK)
-
+AWS Managed Tools(AWS Elastic Beanstalk,  AWS CloudFormation.)
 
 ### Difference between using CLI or SDK 
 
