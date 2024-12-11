@@ -68,3 +68,4 @@ AWS Managed Tools(AWS Elastic Beanstalk,  AWS CloudFormation.)
 | **복잡성**       | 낮음               | 상대적으로 높음                 |
 | **비동기 작업 지원** | 제한적              | 대부분 언어에서 비동기 지원          |
 | **학습 곡선**     | 비교적 짧음           | 프로그래밍 언어 및 AWS 서비스 학습 필요 |
+#AWS [[AWS SDK vs Terraform]]
